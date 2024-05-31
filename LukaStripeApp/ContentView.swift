@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  LukaStripeApp
 //
-//  Created by Jose Moran on 30/5/24.
+//  Created by Jose Moran on 27/5/24.
 //
 
 import SwiftUI
