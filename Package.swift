@@ -25,6 +25,13 @@ let package = Package(
             name: "LukaStripeSDK",
             dependencies: [
               .product(name: "Alamofire", package: "Alamofire"),
+              .product(name: "Stripe", package: "stripe-ios-spm"),
+              .product(name: "StripeApplePay", package: "stripe-ios-spm"),
+              .product(name: "StripeCardScan", package: "stripe-ios-spm"),
+              .product(name: "StripeIdentity", package: "stripe-ios-spm"),
+              .product(name: "StripeFinancialConnections", package: "stripe-ios-spm"),
+              .product(name: "StripePaymentSheet", package: "stripe-ios-spm"),
+              .product(name: "StripePayments", package: "stripe-ios-spm"),
               .product(name: "StripePaymentsUI", package: "stripe-ios-spm")
             ],
             resources: [
